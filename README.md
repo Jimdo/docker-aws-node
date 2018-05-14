@@ -4,7 +4,7 @@
 
 ### Content
 
- * `aws-cli/1.15.8`
+ * `aws-cli/1.15.19`
  * `Node 9.11.1`
  * `Docker version 18.03.0-ce, build 0520e24`
 

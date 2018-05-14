@@ -1,8 +1,7 @@
-FROM node:9.11.1
+FROM node:9.11.1-alpine
 
 RUN apk add --update jq curl make bash \
-  libc6-compat gcc musl-dev libffi-dev openssl-dev git
-RUN pip install --upgrade pip pipenv
+  libc6-compat gcc musl-dev libffi-dev openssl-dev git py-pip ca-certificates openssl
 RUN pip install awscli
 
 ENV DOCKER_VERSION "18.03.0-ce"
